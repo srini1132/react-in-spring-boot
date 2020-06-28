@@ -1,0 +1,32 @@
+{
+  "name": "react-in-spring-boot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srini1132/react-in-spring-boot.git"
+  },
+  "author": "Srinivasagupta Maram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srini1132/react-in-spring-boot/issues"
+  },
+  "homepage": "https://github.com/srini1132/react-in-spring-boot#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rest": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
